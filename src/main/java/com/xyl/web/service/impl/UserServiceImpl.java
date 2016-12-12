@@ -1,6 +1,7 @@
-package com.xyl.web.service;
+package com.xyl.web.service.impl;
 
 import com.xyl.web.entity.User;
+import com.xyl.web.service.UserService;
 
 public class UserServiceImpl implements UserService {
 
@@ -8,8 +9,8 @@ public class UserServiceImpl implements UserService {
 		
 		User user = new User();
 		user.setUsername(username);
-		user.setAge(20);
+		user.setAge(40);
 		return user;
 	}
-
+	
 }
