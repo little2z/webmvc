@@ -8,8 +8,7 @@ public class UserServiceImpl implements UserService {
 	public User queryUser(String username) {
 		
 		User user = new User();
-		user.setUsername(username);
-		user.setAge(40);
+		user.setAge(50);
 		return user;
 	}
 	
