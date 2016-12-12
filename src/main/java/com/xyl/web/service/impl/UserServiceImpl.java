@@ -9,7 +9,7 @@ public class UserServiceImpl implements UserService {
 		
 		User user = new User();
 		user.setUsername(username);
-		user.setAge(40);
+		user.setAge(20);
 		return user;
 	}
 	
