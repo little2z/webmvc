@@ -32,5 +32,8 @@ public class HelloController {
 		return "hello";
 	}
 	
+	public void test(){
+		System.out.println("test");
+	}
 	
 }
