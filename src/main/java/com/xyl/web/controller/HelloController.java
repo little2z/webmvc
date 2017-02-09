@@ -32,7 +32,7 @@ public class HelloController {
 		return "hello";
 	}
 	
-	public void test2(){
+	public void test22(){
 		System.out.println("test");
 	}
 	
